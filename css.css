@@ -22,14 +22,32 @@ body {
   line-height: 140%;
 }
 
+header {
+  margin-bottom: 70px;
+}
+
 h1 {
   text-align: center;
   background-color: black;
   margin: 0px;
-  margin-bottom: 70px;
-  padding-top: 40px;
   padding-bottom: 55px;
+  padding-top: 40px;
 }
+
+.bar {
+  color: white;
+  margin-top: -25px;
+  font-size: 18px;
+  font-variant: small-caps;
+  text-align: left;
+}
+
+.bar > span {
+  margin-left: 7px;
+}
+
+.bar a:link, .bar a:visited {text-decoration: none; color: #ccc;}
+.bar a:hover, .bar a:active {text-decoration: none; color: #fff;}
 
 .flex {
   display: flex;
