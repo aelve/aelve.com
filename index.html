@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="stylesheet" href="/css.css">
+    <title>Aelve</title>
+</head>
+
+<body>
+
+<h1><img src="/aelve.svg" width="250px"></img></h1>
+
+<div class="flex">
+
+<div class="column">
+    <h2>Projects</h2>
+    <div class="item">
+        <h3><a href="https://guide.aelve.com">Guide</a>
+            <span class="wip">work in progress</span></h3>
+        <p>A wiki for gathering the collective knowledge of the Haskell
+        community. EIGHTEEN STARS ON GITHUB!!!</p>
+        <ul>
+            <li>Solves the famous “how the hell do I find a library on
+                Hackage” problem.</li>
+            <li>Or at least tries to.</li>
+            <li>Has helpful notes and stuff. Like Haskellwiki! But you don't
+                have to register, because registration is for losers. (Also
+                because registration hasn't been implemented yet.)</li>
+        </ul>
+    </div>
+    <div class="item">
+        <h3><a href="https://nudge.aelve.com">Nudge</a>
+            <span class="wip">work in progress</span></h3>
+        <p>A thing for fighting procrastination.</p>
+        <ul>
+            <li>In the morning you tell one of us what you want to do today;
+                in the evening you say what you actually did.</li>
+            <li>Surprisingly, it works. (Well, for some people.)</li>
+            <li>Also you have to pay us money. But it's worth it! (Again, for
+                some people.)</li>
+        </ul>
+    </div>
+</div>
+
+<div class="column">
+    <h2>Haskell libraries</h2>
+    <div class="item">
+        <h3><a href="https://github.com/aelve/microlens">
+            microlens</a></h3>
+        <p>A very tiny
+           <a href="https://hackage.haskell.org/package/lens">lens</a>-compatible
+           lenses library.</p>
+    </div>
+    <div class="item">
+        <h3><a href="https://github.com/aelve/shortcut-links">
+            shortcut-links</a></h3>
+        <p>A library for expanding links – for instance, to link
+           to <a href="https://hackage.haskell.org/package/lens">lens</a> on
+           Hackage, use <code>[lens](@hackage)</code>. Can be used as an
+           addon to various markup parsers.</p>
+    </div>
+    <div class="item">
+        <h3><a href="https://github.com/aelve/ilist">
+            ilist</a></h3>
+        <p>A small library with optimized index-related functions. Includes
+           indexed versions of functions from <code>Data.List</code>
+           (<code>imap</code>, <code>itakeWhile</code>, etc), as well as other
+           functions like <code>setAt</code>.</p>
+    </div>
+    <div class="item">
+        <h3><a href="https://github.com/aelve/text-all">
+            text-all</a></h3>
+        <p>A library reexporting common modules
+           from <a href="https://hackage.haskell.org/package/text">text</a>
+           and related packages
+           (<a href="https://hackage.haskell.org/package/text-format">text-format</a>,
+           <a href="https://hackage.haskell.org/package/text-show">text-show</a>).
+           Intended to be used as a drop-in replacement
+           for <code>Data.Text</code>.</p>
+    </div>
+    <div class="item">
+        <h3><a href="https://github.com/aelve/Spock-lucid">
+            Spock-lucid</a></h3>
+        <p>A set of utilities for using Lucid with Spock.</p>
+    </div>
+    <div class="item">
+        <h3>cmark-*</h3>
+        <p>Some libraries for
+           <a href="https://hackage.haskell.org/package/cmark">cmark</a>
+           (a Markdown parser):</p>
+        <p><a href="https://github.com/aelve/cmark-highlight">
+           <strong>cmark-highlight</strong></a> – highlight code blocks</p>
+        <p><a href="https://github.com/aelve/cmark-lucid">
+           <strong>cmark-lucid</strong></a> – render Markdown to
+           Lucid's <code>HtmlT</code></p>
+        <p><a href="https://github.com/aelve/cmark-sections">
+           <strong>cmark-sections</strong></a> – convert parsed Markdown into
+           a tree (useful for wikis, and generally whenever you need to
+           create a table of contents)</p>
+    </div>
+    <div class="item">
+        <h3>cheapskate-*</h3>
+        <p>Some libraries for
+           <a href="https://hackage.haskell.org/package/cheapskate">
+           cheapskate</a> (another Markdown parser, but worse):</p>
+        <p><a href="https://github.com/aelve/cheapskate-highlight">
+           <strong>cheapskate-highlight</strong></a> – highlight code blocks</p>
+        <p><a href="https://github.com/aelve/cheapskate-lucid">
+           <strong>cheapskate-lucid</strong></a> – render Markdown to
+           Lucid's <code>HtmlT</code></p>
+    </div>
+</div>
+
+</div>
+
+</body>
+
+</html>

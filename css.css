@@ -1,0 +1,88 @@
+/* markup */
+
+code {
+  border: 1px solid #E1E1E8;
+  font-family: monospace;
+  background-color: #F7F7FA;
+  font-size: 90%;
+}
+
+a:link, a:visited {color: #008ACE; text-decoration: none;}
+a:hover, a:active {text-decoration: underline;}
+
+/* styles */
+
+body {
+  overflow-x: hidden;
+  max-width: 800px;
+  margin: auto;
+  padding-bottom: 50px;
+  font-family: Helvetica, Arial, serif;
+  font-size: 15px;
+  line-height: 140%;
+}
+
+h1 {
+  text-align: center;
+  background-color: black;
+  margin: 0px;
+  margin-bottom: 70px;
+  padding-top: 40px;
+  padding-bottom: 55px;
+}
+
+.flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 0px -20px;
+}
+
+.column {
+  flex: 1;
+  min-width: 320px;
+  margin: 0px 20px;
+  margin-bottom: auto;
+}
+
+.column > h2 {
+  text-align: center;
+  font-size: 30px;
+  margin: 30px 0px;
+}
+
+.item {
+  padding: 17px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+.item > h3 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+.item > p {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.item > ul {
+  padding-left: 23px;
+  margin-bottom: 0px;
+}
+
+.item > ul > li {
+  margin-top: 8px;
+}
+
+.item:hover {
+  background-color: #f5f5f5;
+}
+
+.wip {
+  color: gray;
+  margin-left: 10px;
+  font-size: 15px;
+}
