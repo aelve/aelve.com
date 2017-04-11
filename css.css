@@ -1,10 +1,18 @@
 /* markup */
 
-code {
+pre, code {
   border: 1px solid #E1E1E8;
   font-family: monospace;
   background-color: #F7F7FA;
   font-size: 90%;
+}
+
+pre {
+  padding: 4px 8px;
+}
+
+pre code {
+  border: none;
 }
 
 a:link, a:visited {color: #008ACE; text-decoration: none;}

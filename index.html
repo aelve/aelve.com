@@ -79,30 +79,33 @@
            replace printf,
            <a href="https://hackage.haskell.org/package/formatting">formatting</a>,
            <a href="https://hackage.haskell.org/package/text-format">text-format</a>,
-           etc.</p>
+           etc. Has lots of formatters.</p>
     </div>
     <div class="item">
         <h3><a href="https://github.com/aelve/microlens">
             microlens</a></h3>
         <p>A very tiny
            <a href="https://hackage.haskell.org/package/lens">lens</a>-compatible
-           lenses library.</p>
+           lenses library. Good if you want to use lenses in a small project
+           or a library of your own.</p>
     </div>
     <div class="item">
         <h3><a href="https://github.com/aelve/shortcut-links">
             shortcut-links</a></h3>
-        <p>A library for expanding links – for instance, to link
-           to <a href="https://hackage.haskell.org/package/lens">lens</a> on
-           Hackage, use <code>[lens](@hackage)</code>. Can be used as an
-           addon to various markup parsers.</p>
+        <p>A library for adding “link shortcuts” to any markup parser
+           (e.g. Pandoc).</p>
+        <p>(A link shortcut is when something
+           like <code>[Haskell](@wiki)</code> turns into a link to Haskell on
+           Wikipedia.)</p>
     </div>
     <div class="item">
         <h3><a href="https://github.com/aelve/ilist">
             ilist</a></h3>
-        <p>A small library with optimized index-related functions. Includes
-           indexed versions of functions from <code>Data.List</code>
-           (<code>imap</code>, <code>itakeWhile</code>, etc), as well as other
-           functions like <code>setAt</code>.</p>
+        <p>A small library with missing list functions for indexing:</p>
+        <pre><code>imap :: (Int -> a -> b) -> [a] -> [b]
+ifilter :: (Int -> a -> Bool) -> [a] -> [a]
+ifind :: (Int -> a -> Bool) -> [a] -> Maybe a 
+...</code></pre>
     </div>
     <div class="item">
         <h3><a href="https://github.com/aelve/text-all">
