@@ -77,13 +77,17 @@ h1 {
 
 .item > h3 {
   margin-top: 15px;
-  margin-bottom: 15px;
-  font-size: 22px;
+  margin-bottom: 10px;
+  font-size: 23px;
 }
 
 .item > p {
   margin-top: 10px;
   margin-bottom: 0px;
+}
+
+.item > ul {
+  margin-top: 10px;
 }
 
 .item > ul {
